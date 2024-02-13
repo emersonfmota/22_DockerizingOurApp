@@ -29,7 +29,6 @@ services:
       SPRING.DATASOURCE.USERNAME: root
       SPRING.DATASOURCE.PASSWORD: mjfl1992
     ports:
-      - 80:80
     command: mvn spring-boot:run
     depends_on:
       - db
